@@ -1,0 +1,13 @@
+:root { --fg:#1d1d1f; --muted:#6e6e73; --bg:#fff; --line:#e5e5ea; --accent:#0a7d5a; }
+@media (prefers-color-scheme: dark) { :root { --fg:#f5f5f7; --muted:#a1a1a6; --bg:#111; --line:#2c2c2e; --accent:#3ccf9a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.8 -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.6rem; line-height:1.4; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 2em 0 .5em; padding-top: 1em; border-top: 1px solid var(--line); }
+p, li { margin: .4em 0; }
+.meta { color: var(--muted); font-size: .9rem; }
+a { color: var(--accent); }
+table { width:100%; border-collapse: collapse; font-size:.95rem; }
+th, td { text-align:left; vertical-align: top; padding:8px 6px; border-bottom:1px solid var(--line); }
+footer { margin-top: 48px; color: var(--muted); font-size: .85rem; }
